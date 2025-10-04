@@ -1,0 +1,3 @@
+CREATE DATABASE laravel_db;
+CREATE USER laravel_user WITH ENCRYPTED PASSWORD 'secret';
+GRANT ALL PRIVILEGES ON DATABASE laravel_db TO laravel_user;
